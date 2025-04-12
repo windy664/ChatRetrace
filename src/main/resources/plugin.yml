@@ -1,0 +1,13 @@
+name: ChatRetrace
+main: org.windy.chatRetrace.ChatRetrace
+version: 1.1
+api-version: 1.21
+commands:
+  chatretrace:
+    description: 查看 TrChat 日志文件的最近聊天记录
+    usage: /chatretrace <行数>
+    permission: chatretrace.use
+permissions:
+  chatretrace.use:
+    description: 使用 /chatretrace 的权限
+    default: true
